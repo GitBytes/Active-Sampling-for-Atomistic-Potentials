@@ -64,3 +64,7 @@ To save time in training, we recommend preprocessing nearest neighbor calculatio
 python ./preprocessing/parse_db.py --data_path [path to .db file] --preprocessing_path [path to preprocessing dir] --cutoff [atomic cutoff distance]
 ```
 Use the ```--no_mic``` flag to toggle off the minimum image convention for peridic boundary conditions. When ```--no_mic``` is present, the mimimum image convention will not be used.
+
+
+## Citation
+Sprueill, H. W., Bilbrey, J. A., Pang, Q., & Sushko, P. V. (2023). Active sampling for neural network potentials: Accelerated simulations of shear-induced deformation in Cu–Ni multilayers. The Journal of Chemical Physics, 158(11). https://doi.org/10.1063/5.0133023
