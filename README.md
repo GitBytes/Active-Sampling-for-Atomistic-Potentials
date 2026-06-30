@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This repository has been archived and is no longer maintained.
+> The code is provided for historical reference and may contain unpatched or unknown vulnerabilities.
+> It should not be used in production systems.
+
 # Active Sampling for Atomistic Potentials
 
 This codebase introduces an active learning algorithm to dynamically compose a training set during training of a neural network potential (NNP) to prevent over-learning of a specific region of chemical space. The scheme facilitates the further use of data generated from computational studies, which tend to unevenly cover regions of chemical space and are not well-suited to use directly as training sets for NNPs.
